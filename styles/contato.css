@@ -1,0 +1,100 @@
+
+main > section {
+    background: url("../img-omma/banner-formulario.jpg") 50% 0 repeat-x;
+}
+
+main > section h2 {
+    margin: 0 122px 186px;
+    padding-top: 49px;
+    width: 419px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+main > section h2::after {
+    content: ' :)';
+}
+
+.display{
+    display: flex;
+    
+}
+
+.image-aside{
+    background: url(../img-omma/image-aside.jpg);
+    height: 771px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 100px 0 0 120px;
+}
+
+form{
+    width: 820px;
+    height: 766px;
+    border: 1px solid #FFA000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 100px 0 133px 15px;
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset input{
+    Width: 749.44px;
+    Height: 48.65px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 0 33px 22px 37px;
+    padding: 7px 0 7px 33px;
+}
+
+.legend{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFC107;
+    padding: 64px 0 66px 33px;
+}
+
+.textarea{
+    margin: 0 33px 16px 37px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    box-sizing: border-box;
+    border-radius: 7px;
+    Width:749px;
+    resize: none;
+    padding: 7px 0 7px 33px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button{
+    Width: 164.18px;
+    Height: 48.65px;
+    background: #FFC107;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    border:none;
+    padding: 0;
+
+}

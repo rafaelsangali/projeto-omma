@@ -1,0 +1,59 @@
+
+h1{
+    
+    margin: 104px 0 0 120px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: lowercase;
+    line-height: 61px;
+    color: #FFA000;
+    
+    
+
+}
+
+.display-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.link-image{
+    display: block;
+    width: 345px;
+    height: 342px;
+    margin-top: 130px;
+    
+}
+
+.title-recipe{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.link-recipe{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 0em;
+    background: #176902;
+    margin: 40px 80px 0 80px;
+    padding: 10px 43px;
+}
+
+footer{
+    margin-top: 166px;
+}

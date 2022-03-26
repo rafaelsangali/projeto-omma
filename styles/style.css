@@ -1,0 +1,147 @@
+/* Estilo conteúdo principal */
+main{
+    display: flex;
+}
+h1{
+    color: #FFA000;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: lowercase;
+    width: 462px;
+    height: 61px;
+    margin: 107px 0 0 120px;
+}
+.risoto{
+    width: 592px;
+    height: 311px;
+    margin: 28px 0 0 120px;
+}
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 32px 0 0 80px;
+    padding-right: 15px;
+    
+    
+}
+.tags li{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #176902;
+    size: 18px;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    text-align: center;
+    padding: 7px 30px 7px 30px;
+    margin-right: 15px;
+    
+}
+.content1a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    size: 20px;
+    list-style: none;
+    margin: 65px 0 0 90px;
+    width: 592px;
+    
+}
+
+#titlec1{
+    font-weight: 700;
+}
+#titlec2{
+    font-weight: 700;
+    margin-top: 90px;
+}
+
+.video{
+    width: 580px;
+    height: 317px;
+    margin: 37px 0 0 120px;
+}
+
+.content1b{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    size: 20px;
+    max-width: 592px;
+    max-height: 576px;
+    margin: 30px 0 25% 120px;
+    
+}
+#titlec3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 90px 0 0 120px;   
+}
+
+/* conteúdo complementar */
+
+
+#titlec4 {
+    
+    width: 321px;
+    height: 37px;
+    color: #FFA000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    margin: 190px 0 0 192px;
+}
+
+.imgaside{
+    width: 345px;
+    height: 342px;
+    margin: 55px 0 0 192px;
+}
+
+.contentimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 69px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: -10px 0 0 192px;
+}
+
+@media screen and (max-width: 1265px){
+main{
+    flex-direction: column;
+}
+.content1b{
+    margin-bottom: 0;
+}
+footer{
+    margin-top: 20%;
+}
+}
+
+@media screen and (max-width: 720px){
+    .risoto{
+        width: 390px;
+    }
+    .video{
+        width: 480px;
+        height: 266px
+        ;
+    }
+
+}
+
+
+
+
+
+

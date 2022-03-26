@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omma</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Nunito&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/contato.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <img id="logo" src="img-omma/logo.png" alt="logoomma">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="home.html">início</a></li>
+                <li><a href="lista-receitas.html">receitas</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+       
+        <section>
+            <h2>Manda um alô</h2>
+                <div class="display">
+                    <div width="350px" height="771px" class="image-aside"></div>
+                    <form action="" method="post">
+
+                        <fieldset>
+                            <legend class="legend" >Contato</legend>
+
+                            <label>
+                                <span class="screen-reader-only">Nome</span>
+                                <input class="input-name" type="text" name="nome" required placeholder="nome" />
+                            </label>
+                            
+                            <label>
+                                <span class="screen-reader-only">Email</span>
+                                <input type="email" name="email" required placeholder="email">
+                            </label>
+
+                            <label>
+                                <span class="screen-reader-only">Mensagem</span>
+                                <textarea  class="textarea" name="mensagem" required placeholder="mensagem" cols="30" rows="10"></textarea>
+                            </label>
+
+                            <input class="button" type="submit" value="Enviar">
+                        
+                        </fieldset>
+                    
+                    </form>
+            </div>
+        </section>
+       
+    </main>
+    <footer class="footer">
+        <img src="./img-omma/logo.png" alt="logo rodapé">
+        <p>© 2022 omma - Todos os direitos são de vocês</p>
+
+
+    </footer>
+
+</body>
+</html>
